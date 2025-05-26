@@ -2,206 +2,231 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Prova Bootstrap </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Demo</title>
 
-    <link rel="stylesheet" href="style.css">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 
+  
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
+  
+  <header>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="images/Group 3702.svg" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">How tere works</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Tere benefits</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="botaoverde nav-link" href="#">Help Center</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+          <a class="navbar-brand" href="#"><img src="images/Group 3702.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">How tere works</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Tere benefits</a></li>
+              <li class="nav-item"><a class="botaoverde nav-link" href="#">Help Center</a></li>
+            </ul>
+          </div>
         </div>
-    </header>
-      
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <section class="carro">
-            <div class="container">
-                <div class="row align-items-center">
 
-                    <!-- Coluna da Esquerda -->
-                    <div class="col-md-6 ">
-                        <h1 class="carro-title">DOWNLOAD APP, <br>SAVE MONEY, MAKE FRIENDS!</h1>
-                        <p class="carro-subtitle">
-                            It’s simple and it’s free. Play your part in reducing Carbon Footprint and help Mother
-                            Nature to sustain its beauty. So what are you waiting for? Let’s ride together
-                        </p>
-                        <div class="d-flex gap-3">
-                            <a href="#" class="btn btn-dark carro-btn"><img src="images/play-story.svg" alt="">
-                                DOWNLOAD</a>
-                            <a href="#" class="btn btn-dark carro-btn"><img src="images/download.svg"
-                                    alt="">DOWNLOAD</a>
-                        </div>
-                    </div>
+  <main>
 
-                    <!-- Coluna da Direita -->
-                    <div class="col-md-6 text-center">
-                        <img src="images/carro.jpg" alt="Mapa e carro" class="carro-image">
-                    </div>
 
-                </div>
+    <section class="carro">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="carro-title">DOWNLOAD APP,<br>SAVE MONEY, MAKE FRIENDS!</h1>
+            <p class="carro-subtitle">
+              It’s simple and its free. Play your part in reducing Carbon Footprint and help Mother Nature to sustain its beauty. So what are you waiting for? Let’s ride together
+            </p>
+            <div class="d-flex gap-3">
+              <a href="#" class="btn btn-dark carro-btn"><img src="images/play-story.svg" alt=""> DOWNLOAD</a>
+              <a href="#" class="btn btn-dark carro-btn"><img src="images/download.svg" alt=""> DOWNLOAD</a>
             </div>
-        </section>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="images/carro.jpg" alt="Mapa e carro" class="carro-image">
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section class="apply">
-            <div class="container">
-                <p>Let's go. Get a link to download the app.</p>
-                <input type="tel" placeholder="Enter mobile phone number" />
-                <button>APPLY TO DRIVE</button>
+  
+    <section class="apply">
+      <div class="container">
+        <p>Let’s go. Get a link to download the app.</p>
+        <input type="tel" placeholder="Enter mobile phone number" />
+        <button>APPLY TO DRIVE</button>
+      </div>
+    </section>
+
+
+    <section class="texto-paragrafo">
+      <div class="container py-5 text-center">
+        <h2>HOW <span class="tere">TERE</span> WORKS</h2>
+        <p class="p-paragrafo">
+          Download and install the tere app. Enter your phone<br>
+          number and make your user account. When approved you <br>
+          may start driving.
+        </p>
+      </div>
+    </section>
+
+ 
+    <section class="celular py-5">
+      <div class="container">
+        <div class="row align-items-center text-center">
+
+          <div class="col-md-4 d-flex flex-column align-items-center justify-content-center gap-5">
+            <div class="texto-celular">1
+              <h5>REQUEST A RIDE</h5>
+              <p>Have to reach office or going for shopping?<br>
+                Just put your current location and destination and search a ride that suits you.
+              </p>
             </div>
-        </section>
 
-
-        <section class="texto-paragrafo">
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2>HOW <span class="tere">TERE</span> WORKS</h2>
-                        <p class="p-paragrafo">Download and install the tere app. Enter your phone<br>number and make
-                            your user account. When approved you <br> may start driving.</p>
-                    </div>
-                </div>
+            <div>
+              <div class="texto-celular">3</div>
+              <h5>INSTANT NOTIFICATIONS</h5>
+              <p>Get instant notifications for your rides and be in contact with fellow riders all the time.</p>
             </div>
-        </section>
+          </div>
 
-        <section class="celular py-5">
-            <div class="container">
-                <div class="row align-items-center text-center ">
+          <div class="col-md-4">
+            <img src="images/Group 3693.jpg" alt="App" class="img-fluid">
+          </div>
 
-                    <!-- Coluna Esquerda -->
-                    <div class="col-md-4 d-flex flex-column align-items-center justify-content-center gap-5">
-
-                        <div class="texto-celular">1
-                            <h5>REQUEST A RIDE</h5>
-                            <p>Have to reach office or going for shopping?<br>
-                                Just put your current location and destination and search a ride that suits you.
-                            </p>
-                        </div>
-
-                        <div>
-                            <div class="texto-celular">3</div>
-                            <h5>INSTANT NOTIFICATIONS</h5>
-                            <p>Get instant notifications for your rides and be in contact with fellow riders all the
-                                time.</p>
-                        </div>
-                    </div>
-
-                    <!-- Coluna do Celular -->
-                    <div class="col-md-4 text-center">
-                        <img class="
-                        " src="images/Group 3693.jpg" alt="App" class="img-fluid">
-                    </div>
-
-                    <!-- Coluna Direita -->
-                    <div class="col-md-4 d-flex flex-column align-items-center justify-content-center gap-5">
-
-                        <div class="texto-celular">2
-                            <h5>POST A RIDE</h5>
-                            <p>Going somewhere but hate to travel alone?<br>
-                                Just post your ride details and publish it.
-                            </p>
-                        </div>
-
-
-                        <div class="texto-celular">4
-                            <h5>CASHLESS PAYMENT</h5>
-                            <p>Payment made easy by using your own Wallet - no more cash to carry.</p>
-                        </div>
-                    </div>
-
-                </div>
+          <div class="col-md-4 d-flex flex-column align-items-center justify-content-center gap-5">
+            <div class="texto-celular">2
+              <h5>POST A RIDE</h5>
+              <p>Going somewhere but hate to travel alone?<br>
+                Just post your ride details and publish it.
+              </p>
             </div>
-        </section>
 
-        <section class="Flexible mb-5">
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1 class=""><span class="tere">01.</span>Flexible <br>
-                            spaworking hours</h1>
-                        <p class="py-5 p-paragrafo">You can decide when, and how much<br>
-                            time you want to drive.</p>
-                    </div>
-
-                    <div class="col-md-6 text-center">
-                        <img src="images/homemrelogio.jpg" alt="">
-                    </div>
-                </div>
+            <div class="texto-celular">4
+              <h5>CASHLESS PAYMENT</h5>
+              <p>Payment made easy by using your own Wallet – no more cash to carry.</p>
             </div>
-        </section>
+          </div>
 
+        </div>
+      </div>
+    </section>
 
-        <section class="Earnings mb-5">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-md-6 text-center">
-                        <img src="images/dinheiro.jpg" alt="">
-                    </div>
-                    
-                    
-                    <div class="col-md-6 text-center">
-                        <h1><span class="tere">02.</span>Earnings <br></h1>
-                        <p class="p-paragrafo">By driving with tere you can <br>
-                            earn more.</p>
-                    </div>
+   
+    <section class="Flexible mb-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h1><span class="tere">01.</span> Flexible <br> spaworking hours</h1>
+            <p class="py-5 p-paragrafo">You can decide when, and how much<br> time you want to drive.</p>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="images/homemrelogio.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
 
-                    
-                </div>
-            </div>
-        </section>
+    <section class="Earnings mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img src="images/dinheiro.jpg" alt="">
+          </div>
+          <div class="col-md-6 text-center">
+            <h1><span class="tere">02.</span> Earnings</h1>
+            <p class="p-paragrafo">By driving with tere you can <br> earn more.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section class="Customer mb-5">
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1 class=""><span class="tere">03.</span>Customer <br>support 24/7</h1>
-                        <p class="py-5 p-paragrafo">Tere is a local service provider and we are proud to support you in your local language. We are proud to be at your service 24/7!</p>
-                    </div>
+    <section class="Customer mb-0">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h1><span class="tere">03.</span> Customer <br> support 24/7</h1>
+            <p class="py-5 p-paragrafo">
+              Tere is a local service provider and we are proud to support you in your local language. We are proud to be at your service 24/7!
+            </p>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="images/homem-computador.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
 
-                    <div class="col-md-6 text-center">
-                        <img src="images/homem-computador.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
+  </main>
 
-    </main>
+ 
+  <div style="border-top: 1px solid #d2d2d2;" class="footer-wrapper"></div>
 
+ 
+  <footer>
+    <section class="baixo py-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-        crossorigin="anonymous"></script>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <img src="images/tere.svg" alt="tere" class="img-fluid">
+          </div>
+
+          <div class="col-md-3 mb-3 mb-md-0">
+            <h5>Be Our Friend</h5>
+            <ul class="list-unstyled">
+              <li>3, Season Park, Jakarta</li>
+              <li>support@foodyar.co.id</li>
+              <li>021 - 1111 - 2222</li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 mb-3 mb-md-0">
+            <h5>Be Our Friend</h5>
+            <ul class="list-unstyled">
+              <li>3, Season Park, Jakarta</li>
+              <li>support@foodyar.co.id</li>
+              <li>021 - 1111 - 2222</li>
+            </ul>
+          </div>
+
+          <div class="col-md-2 d-flex gap-2">
+            <a href="#"><img src="images/download3.svg" alt="Google Play" class="img-fluid"></a>
+            <a href="#"><img src="images/download2.svg" alt="App Store" class="img-fluid"></a>
+          </div>
+
+        </div>
+      </div>
+
+      <div style="border-top: 1px solid #d2d2d2;" class="footer-wrapper"></div>
+
+      <div class="footer-bottom text-center py-3">
+        <p class="mb-0" style="font-size: 0.875rem;">
+          All Rights Reserved tere by Codematics 2022
+        </p>
+      </div>
+    </section>
+  </footer>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
